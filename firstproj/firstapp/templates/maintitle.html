@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}"/>
+    <link rel="stylesheet" href="{% static 'appstyles/styles.css' %}">
+
+<body>
+    <section class="main-page">
+    
+        <div class="wrapper">
+                
+                <div class="main-page-left-side">
+    
+                    <div class="main-page-text-container">
+                        {% comment %} <h2 class="main-page-desciption">My first project</h2> {% endcomment %}
+                        <img src="{% static 'img/main_page_logo.png' %}" />
+                        <h1 class="main-page-title">Testing</h1>
+                        <p class="main-page-text">
+                            Under this text will be different html file.
+                        </p>
+                    </div>
+    
+                </div>
+        </div>
+    
+    </section>
+</body>    

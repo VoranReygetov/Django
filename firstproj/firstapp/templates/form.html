@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <form action="/myapp/showform/" method="POST"> 
+        {% csrf_token %} 
+        <p>Name: <input type="name" name="name"></p> 
+        <p>UserID :<input type="text" name="id"></p> 
+        <input type="submit", value="Submit"> 
+    </form> 
+</body>

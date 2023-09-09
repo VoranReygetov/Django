@@ -1,0 +1,224 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-page-desciption {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 40px;
+}
+
+.main-page-title {
+
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 52px;
+    /* display: flex; */
+    align-items: center;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+
+.main-page-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 32px;
+}
+
+.logo {
+    margin-top: 34px;
+    margin-bottom: 60px;
+}
+.main-page {
+    background: linear-gradient(254.64deg, #FCFEFE 0%, #60FEFE 0.01%, rgba(217, 217, 217, 0) 100%);
+}
+
+.main-page-text-container {
+    /* background: #FFFFFF; */
+    border-radius: 40px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.main-page-button {
+    background: #FF6B0A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.gus-facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center; 
+}
+
+.gus-facts-title {
+    width: 813px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    padding-bottom: 24px;
+    color: #1B1D1F;
+
+}
+.gus-facts-description {
+    width: 772px;
+    margin: auto;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+}
+
+.gus-facts-tryzub {
+    margin-bottom: 24px;
+}
+
+.gus-fact {
+    width: 374px;
+}
+
+.gus-fact-title{
+    margin-top: 8px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+
+.gus-fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+}
+
+.form-section{
+    background: linear-gradient(254.64deg, #FCFEFE 0%, #60FEFE 0.01%, rgba(217, 217, 217, 0) 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-container{
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+    width: 573px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.form-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+
+.form-field-lable{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #1B1D1F;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.form-field-email{
+    margin-bottom: 48px;
+}
+
+.form-field-imput{
+
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    width: 453px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.form-button{
+    width: 172px;
+    height: 48px;
+    background: #FF6B0A;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}

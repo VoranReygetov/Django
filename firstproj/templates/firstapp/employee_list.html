@@ -1,0 +1,9 @@
+<ul>   
+    {% for object in object_list %}
+    <h2>{{forloop.counter}}</h2>
+    <li>Name: {{ object.name }}</li>   
+    <li>Email: {{ object.email }}</li>   
+    <li>contact: {{ object.contact }}</li>  
+    <hr> 
+    {% endfor %}   
+</ul> 

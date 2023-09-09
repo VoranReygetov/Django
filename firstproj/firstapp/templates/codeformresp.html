@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Your form</title>
+    </head>
+<body>
+        <ul>    
+            {% comment %} <li>Name: {{name | title }}</li>
+            <li>Address: {{address | title }}</li>
+            <li>Number: {{numb | wordcount}}</li>
+            <li>Field: {{field}}</li> {% endcomment %}
+            {% if user == 'Vova' %}
+            <h2>Hello, my Admin</h2>
+            {% endif %}
+            {%for item in formdata%}
+            <li> {{item}}</li>
+            {% endfor %}
+        </ul>
+</body>
+<html>
